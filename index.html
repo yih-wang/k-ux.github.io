@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </head>
 <body>
   <div id="app"></div>
@@ -14,10 +15,24 @@
     window.$docsify = {
       // load from _sidebar.md
       loadSidebar: true,
-      disqus: 'https-keycloak-community-github-io'
+      // disqus: 'https-keycloak-community-github-io'
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+ -->
+   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+   <script>
+   const gitalk = new Gitalk({
+     clientID: 'd5d61eff719c15aa9ca8',
+     clientSecret: '707e839b7f4dc7e68e21be4e168dfa0b33f0b07b',
+     repo: 'yih-wang.github.io',
+     owner: 'haley',
+     admin: ['yih-wang'],
+     // facebook-like distraction free mode
+     distractionFreeMode: false
+   })
+   </script>
 </body>
 </html>
