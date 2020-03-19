@@ -15,9 +15,13 @@ The lower part of the page will remain the same as the old console in terms of f
 
 ## Function improvements
 
-* Using multiple selector component of PF4 to choose scopes, when in selecting editing mode, looks like below:
+* Using [multiple selector component](https://www.patternfly.org/v4/documentation/react/components/select#multiple-with-custom-objects) of PF4 to choose scopes, when in selecting editing mode, looks like below:
 
 ![clientscope-Evaluate2](./_images/clientscope-Eva2.png)
+
+* After selection the field turned into a normal display of plain texts, user can click on the copy icon at right to copy the texts.
+
+![clientscope-Evaluate-Afterselect](./_images/clientscope-Eva-afterselect.png)
 
 
 * ‘Generated Access token’ still appears but remains empty state when there’s no user’s selected.
