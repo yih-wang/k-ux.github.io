@@ -6,4 +6,4 @@
 
   * [List](/clients/1.clients-list.md)
   * [Create/Import](/clients/2.create-import.md)
-  * [ClientScopes - Setup&Evaluate](/clients/3.clientscopes.md)
+  * [ClientScopes - Setup&Evaluate](/clients/5.clientscopes.md)
